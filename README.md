@@ -2,7 +2,7 @@
 Colobot: Gold Edition (https://github.com/colobot/colobot) RaceLevel
 
 # Desription
-Map works ONLY for [dev-buzzingcars](https://github.com/colobot/colobot/tree/dev-buzzingcars)
+Map works ONLY for [dev-buzzingcars](https://github.com/colobot/colobot/tree/dev-buzzingcars)branch
 
 # Features
 * Race on Terranova planet
