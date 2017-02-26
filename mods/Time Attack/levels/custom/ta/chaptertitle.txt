@@ -1,0 +1,2 @@
+Title.P text="Time Attack" resume="Time Attack"
+Title.E text="Time Attack" resume="Time Attack"

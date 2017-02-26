@@ -1,0 +1,18 @@
+extern void object::Timer()
+{
+	object item;
+	string time;
+	while(true){
+		do
+		{
+			wait(0.01);
+			item = radar(21);
+		}
+		while ( item != null );
+		time = this.lifeTime;
+		message("Time: "+time+"!", DisplayInfo);
+		message("Time: "+time+"!", DisplayInfo);
+		message("Time: "+time+"!", DisplayInfo);
+		message("Time: "+time+"!", DisplayInfo);
+	}
+}

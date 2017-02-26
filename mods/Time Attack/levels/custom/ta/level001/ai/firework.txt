@@ -1,0 +1,7 @@
+extern void object::firework()
+{
+	aim(45);
+	while(true){
+		fire(1);
+	}
+}

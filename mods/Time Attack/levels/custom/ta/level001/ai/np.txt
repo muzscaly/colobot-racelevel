@@ -1,0 +1,6 @@
+extern void object::Now_Playing()
+{
+	
+	message("Now playing: Emxx52 - Under Counstruction (Terralice Theme)");
+	
+}

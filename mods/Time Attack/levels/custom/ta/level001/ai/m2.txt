@@ -1,0 +1,7 @@
+extern void object::Prototype()
+{
+	
+	playmusic("music/Prototype.ogg",1);
+	message("Now playing: Emxx52 - Prototype");
+	
+}

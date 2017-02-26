@@ -1,0 +1,7 @@
+extern void object::World()
+{
+	
+	playmusic("music/World.ogg",1);
+	message("Now playing: Jetta - Id Love to Change the World (Matstubs Remix)");
+	
+}

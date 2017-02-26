@@ -1,0 +1,7 @@
+extern void object::Episode()
+{
+	
+	playmusic("music/Episode.ogg",1);
+	message("Now playing: Dr. Dre - The Next Episode (San Holo Remix)");
+	
+}
