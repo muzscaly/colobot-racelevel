@@ -78,7 +78,7 @@ TerrainCreate
 
 BeginObject
 
-CreateObject pos=355;-90 dir=0.5 type=Car select=1 script1="%lvl%/ai/cmt.txt" script2="%lvl%/ai/m1.txt"  script3="%lvl%/ai/m2.txt" script4="%lvl%/ai/m3.txt" script5="%lvl%/ai/m4.txt" script6="%lvl%/ai/m5.txt" script7="%lvl%/ai/m6.txt" script9="%lvl%/ai/m7.txt" run=1
+CreateObject pos=355;-90 dir=0.5 type=Car select=1 script1="%lvl%/ai/cmt.cbot" script2="%lvl%/ai/m1.cbot"  script3="%lvl%/ai/m2.cbot" script4="%lvl%/ai/m3.cbot" script5="%lvl%/ai/m4.cbot" script6="%lvl%/ai/m5.cbot" script7="%lvl%/ai/m6.cbot" script9="%lvl%/ai/m7.cbot" run=1
 
 CreateObject pos=354;-68 dir=0.5 type=Remote run=1
 CreateObject pos=354;-68 dir=0.5 type=Me option=2 selectable=0
@@ -1945,8 +1945,8 @@ CreateObject pos=348;-222 dir=0.0 type=Mine
 CreateObject pos=-263;74 dir=0.0 type=Sweet
 CreateObject pos=-275;75 dir=0.0 type=Home
 
-CreateObject pos=-261.69;74.31 dir=0.0 type=Tech script1="%lvl%/ai/timer.txt" run=1 option=2
-CreateObject pos=-270;70 dir=0.5 type=Tech script1="%lvl%/ai/np.txt" run=1 option=2
+CreateObject pos=-261.69;74.31 dir=0.0 type=Tech script1="%lvl%/ai/timer.cbot" run=1 option=2
+CreateObject pos=-270;70 dir=0.5 type=Tech script1="%lvl%/ai/np.cbot" run=1 option=2
 CreateObject pos=-120.80;-184.75 dir=0.5 type=Tech option=2
 CreateObject pos=-120.80;-195.67 dir=1.5 type=Tech option=2
 
@@ -2059,7 +2059,7 @@ CreateObject pos=-180;256 dir=0.25 type=PowerStation h=-1 selectable=0
 //CreateObject pos=-180;256 dir=0.0 type=PowerStation h=-1 selectable=0
 
 CreateObject pos=-20;-270 dir=0.5 type=WheeledGrabber power=100 script1="titan3.txt" run=1 selectable=0
-CreateObject pos=-180;256 dir=0.25 type=PhazerShooter script1="%lvl%/ai/firework.txt" run=1 selectable=0
+CreateObject pos=-180;256 dir=0.25 type=PhazerShooter script1="%lvl%/ai/firework.cbot" run=1 selectable=0
 
 CreateObject pos=-15;-254 dir=0.1 type=TitaniumOre
 CreateObject pos=-13;-255 dir=0.2 type=TitaniumOre
