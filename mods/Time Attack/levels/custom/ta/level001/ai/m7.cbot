@@ -1,7 +1,0 @@
-extern void object::Blank()
-{
-	
-	playmusic("music/Blank.ogg",1);
-	message("Now playing: Disfigure - Blank");
-	
-}

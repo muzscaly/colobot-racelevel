@@ -1,7 +1,0 @@
-extern void object::Lift()
-{
-	
-	playmusic("music/Lift.ogg",1);
-	message("Now playing: Kevin Macleod - The Lift");
-	
-}

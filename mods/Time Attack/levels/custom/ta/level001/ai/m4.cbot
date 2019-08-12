@@ -1,7 +1,0 @@
-extern void object::Heartbeat()
-{
-	
-	playmusic("music/Heartbeat.ogg",1);
-	message("Now playing: Kevin Macleod - In a Heartbeat");
-	
-}

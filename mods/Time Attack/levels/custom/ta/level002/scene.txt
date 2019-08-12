@@ -1,0 +1,1449 @@
+Title.E text="Time Attack (light ver.)"
+Resume.E text="Drive to the end of the track as soon as possible. (light version)"
+
+Title.P text="Time Attack (wer. odchudzona)"
+Resume.P text="Przejedź do końca trasę jak najszybciej jak się da. (wersja odchudzona)"
+
+//Instructions name="%chap%/help/help.%lng%.txt"
+//Satellite name="%chap%/help/report.%lng%.txt"
+
+HelpFile name="cbot.txt"
+
+EndingFile lost="other/lost000.txt"
+
+//Pesetas max=0
+//Ghost   mode=1
+//CarSpec minSpeed=160
+
+//MessageDelay factor=0.0
+Audio filename="Terralice.ogg"
+AmbientColor air=0.400;0.400;0.400;0.400 water=0.078;0.078;0.078;0.078 // grey
+FogColor air=0.000;0.000;0.000;0.000 water=0.263;0.314;0.392;0.000 // magenta
+VehicleColor color=0.816;0.808;0.769;0.000 // sable clair
+DeepView air=125.00 water=25.00
+FogStart air=0.8 water=0.5
+SecondTexture rank=1
+Background image="back46.png" up=0.000;0.000;0.000;0.000 down=0.000;0.000;0.000;
+ForegroundName image="lens1.png"
+Planet pos=0.0;0.7 dim=0.50 speed=0.002 dir=0.3 image="planets/planet-earth.png" uv1=0.0;0.0 uv2=1.0;1.0
+
+TerrainGenerate vision=250.00 depth=1 hard=0.3
+TerrainRelief image="%chap%/textures/relief01.png"
+TerrainResource image="resae.png"
+TerrainInitTextures image="moon" dx=1 dy=1 table=103
+
+TerrainCreate
+
+BeginObject
+
+CreateObject pos=355;-90 dir=0.5 type=Car
+
+CreateObject pos=354;-63 dir=0.5 type=Me selectable=0 script1="%chap%/ai/human.cbot" select=1 run=1
+CreateObject pos=354;-68 dir=0.5 type=Remote run=1
+
+CreateObject pos=242;-248 dir=0.25 type=Barrier1
+CreateObject pos=238;-244 dir=0.25 type=Barrier1
+CreateObject pos=234;-240 dir=0.25 type=Barrier1
+CreateObject pos=230;-236 dir=0.25 type=Barrier1
+CreateObject pos=226;-232 dir=0.25 type=Barrier1
+CreateObject pos=222;-228 dir=0.25 type=Barrier1
+
+CreateObject pos=218;-225 dir=0.0 type=Barrier1
+CreateObject pos=214;-225 dir=0.0 type=Barrier1
+CreateObject pos=210;-225 dir=0.0 type=Barrier1
+CreateObject pos=206;-225 dir=0.0 type=Barrier1
+CreateObject pos=202;-225 dir=0.0 type=Barrier1
+CreateObject pos=198;-225 dir=0.0 type=Barrier1
+CreateObject pos=194;-225 dir=0.0 type=Barrier1
+CreateObject pos=190;-225 dir=0.0 type=Barrier1
+CreateObject pos=186;-225 dir=0.0 type=Barrier1
+CreateObject pos=182;-225 dir=0.0 type=Barrier1
+CreateObject pos=178;-225 dir=0.0 type=Barrier1
+CreateObject pos=174;-225 dir=0.0 type=Barrier1
+CreateObject pos=170;-225 dir=0.0 type=Barrier1
+CreateObject pos=166;-225 dir=0.0 type=Barrier1
+CreateObject pos=162;-225 dir=0.0 type=Barrier1
+CreateObject pos=158;-225 dir=0.0 type=Barrier1
+CreateObject pos=154;-225 dir=0.0 type=Barrier1
+CreateObject pos=150;-225 dir=0.0 type=Barrier1
+CreateObject pos=146;-225 dir=0.0 type=Barrier1
+CreateObject pos=142;-225 dir=0.0 type=Barrier1
+CreateObject pos=138;-225 dir=0.0 type=Barrier1
+CreateObject pos=134;-225 dir=0.0 type=Barrier1
+CreateObject pos=130;-225 dir=0.0 type=Barrier1
+CreateObject pos=126;-225 dir=0.0 type=Barrier1
+CreateObject pos=122;-225 dir=0.0 type=Barrier1
+CreateObject pos=118;-225 dir=0.0 type=Barrier1
+CreateObject pos=114;-225 dir=0.0 type=Barrier1
+CreateObject pos=110;-225 dir=0.0 type=Barrier1
+CreateObject pos=106;-225 dir=0.0 type=Barrier1
+CreateObject pos=102;-225 dir=0.0 type=Barrier1
+CreateObject pos=98;-225 dir=0.0 type=Barrier1
+CreateObject pos=94;-225 dir=0.0 type=Barrier1
+CreateObject pos=90;-225 dir=0.0 type=Barrier1
+CreateObject pos=86;-225 dir=0.0 type=Barrier1
+CreateObject pos=82;-225 dir=0.0 type=Barrier1
+CreateObject pos=78;-225 dir=0.0 type=Barrier1
+CreateObject pos=74;-225 dir=0.0 type=Barrier1
+CreateObject pos=70;-225 dir=0.0 type=Barrier1
+CreateObject pos=66;-225 dir=0.0 type=Barrier1
+CreateObject pos=62;-225 dir=0.0 type=Barrier1
+CreateObject pos=58;-225 dir=0.0 type=Barrier1
+
+CreateObject pos=-2;-280 dir=0.0 type=Barrier1
+CreateObject pos=-6;-280 dir=0.0 type=Barrier1
+CreateObject pos=-10;-280 dir=0.0 type=Barrier1
+CreateObject pos=-14;-280 dir=0.0 type=Barrier1
+CreateObject pos=-18;-280 dir=0.0 type=Barrier1
+
+CreateObject pos=50;-280 dir=0.0 type=Barrier1
+CreateObject pos=46;-280 dir=0.0 type=Barrier1
+CreateObject pos=42;-280 dir=0.0 type=Barrier1
+CreateObject pos=38;-280 dir=0.0 type=Barrier1
+CreateObject pos=34;-280 dir=0.0 type=Barrier1
+CreateObject pos=30;-280 dir=0.0 type=Barrier1
+CreateObject pos=26;-280 dir=0.0 type=Barrier1
+CreateObject pos=22;-280 dir=0.0 type=Barrier1
+CreateObject pos=18;-280 dir=0.0 type=Barrier1
+CreateObject pos=14;-280 dir=0.0 type=Barrier1
+CreateObject pos=10;-280 dir=0.0 type=Barrier1
+CreateObject pos=6;-280 dir=0.0 type=Barrier1
+CreateObject pos=2;-280 dir=0.0 type=Barrier1
+
+CreateObject pos=-24;-278 dir=0.25 type=Barrier1
+CreateObject pos=-28;-274 dir=0.25 type=Barrier1
+CreateObject pos=-32;-270 dir=0.25 type=Barrier1
+CreateObject pos=-36;-266 dir=0.25 type=Barrier1
+
+CreateObject pos=-125;-210 dir=0.5 type=Barrier1
+CreateObject pos=-125;-206 dir=0.5 type=Barrier1
+CreateObject pos=-125;-202 dir=0.5 type=Barrier1
+CreateObject pos=-125;-198 dir=0.5 type=Barrier1
+CreateObject pos=-125;-194 dir=0.5 type=Barrier1
+CreateObject pos=-125;-190 dir=0.5 type=Barrier1
+CreateObject pos=-125;-186 dir=0.5 type=Barrier1
+CreateObject pos=-125;-182 dir=0.5 type=Barrier1
+CreateObject pos=-125;-178 dir=0.5 type=Barrier1
+CreateObject pos=-125;-174 dir=0.5 type=Barrier1
+CreateObject pos=-125;-170 dir=0.5 type=Barrier1
+CreateObject pos=-125;-166 dir=0.5 type=Barrier1
+CreateObject pos=-125;-162 dir=0.5 type=Barrier1
+
+CreateObject pos=-128;-160 dir=0.0 type=Barrier1
+CreateObject pos=-132;-160 dir=0.0 type=Barrier1
+CreateObject pos=-136;-160 dir=0.0 type=Barrier1
+CreateObject pos=-140;-160 dir=0.0 type=Barrier1
+CreateObject pos=-144;-160 dir=0.0 type=Barrier1
+CreateObject pos=-148;-160 dir=0.0 type=Barrier1
+CreateObject pos=-152;-160 dir=0.0 type=Barrier1
+CreateObject pos=-156;-160 dir=0.0 type=Barrier1
+CreateObject pos=-160;-160 dir=0.0 type=Barrier1
+CreateObject pos=-164;-160 dir=0.0 type=Barrier1
+
+CreateObject pos=-168;-158 dir=0.25 type=Barrier1
+CreateObject pos=-172;-154 dir=0.25 type=Barrier1
+CreateObject pos=-176;-150 dir=0.25 type=Barrier1
+CreateObject pos=-180;-146 dir=0.25 type=Barrier1
+
+CreateObject pos=-180;-146 dir=0.5 type=Barrier1
+CreateObject pos=-180;-142 dir=0.5 type=Barrier1
+CreateObject pos=-180;-138 dir=0.5 type=Barrier1
+CreateObject pos=-180;-134 dir=0.5 type=Barrier1
+CreateObject pos=-180;-130 dir=0.5 type=Barrier1
+CreateObject pos=-180;-126 dir=0.5 type=Barrier1
+CreateObject pos=-180;-58 dir=0.5 type=Barrier1
+CreateObject pos=-180;-54 dir=0.5 type=Barrier1
+CreateObject pos=-180;-50 dir=0.5 type=Barrier1
+CreateObject pos=-180;-46 dir=0.5 type=Barrier1
+CreateObject pos=-180;-42 dir=0.5 type=Barrier1
+CreateObject pos=-180;-38 dir=0.5 type=Barrier1
+CreateObject pos=-180;-34 dir=0.5 type=Barrier1
+CreateObject pos=-180;-30 dir=0.5 type=Barrier1
+CreateObject pos=-180;-26 dir=0.5 type=Barrier1
+CreateObject pos=-180;-22 dir=0.5 type=Barrier1
+
+CreateObject pos=-182;36 dir=0.25 type=Barrier1
+CreateObject pos=-186;40 dir=0.25 type=Barrier1
+CreateObject pos=-190;44 dir=0.25 type=Barrier1
+CreateObject pos=-194;48 dir=0.25 type=Barrier1
+CreateObject pos=-198;52 dir=0.25 type=Barrier1
+CreateObject pos=-202;56 dir=0.25 type=Barrier1
+CreateObject pos=-206;60 dir=0.25 type=Barrier1
+CreateObject pos=-210;64 dir=0.25 type=Barrier1
+CreateObject pos=-214;68 dir=0.25 type=Barrier1
+CreateObject pos=-218;72 dir=0.25 type=Barrier1
+CreateObject pos=-222;76 dir=0.25 type=Barrier1
+CreateObject pos=-226;80 dir=0.25 type=Barrier1
+CreateObject pos=-230;84 dir=0.25 type=Barrier1
+CreateObject pos=-234;88 dir=0.25 type=Barrier1
+CreateObject pos=-238;92 dir=0.25 type=Barrier1
+CreateObject pos=-242;96 dir=0.25 type=Barrier1
+CreateObject pos=-246;100 dir=0.25 type=Barrier1
+CreateObject pos=-250;104 dir=0.25 type=Barrier1
+CreateObject pos=-254;108 dir=0.25 type=Barrier1
+CreateObject pos=-258;112 dir=0.25 type=Barrier1
+CreateObject pos=-262;116 dir=0.25 type=Barrier1
+CreateObject pos=-266;120 dir=0.25 type=Barrier1
+CreateObject pos=-270;124 dir=0.25 type=Barrier1
+CreateObject pos=-274;128 dir=0.25 type=Barrier1
+CreateObject pos=-278;132 dir=0.25 type=Barrier1
+CreateObject pos=-282;136 dir=0.25 type=Barrier1
+CreateObject pos=-286;140 dir=0.25 type=Barrier1
+CreateObject pos=-290;144 dir=0.25 type=Barrier1
+CreateObject pos=-294;148 dir=0.25 type=Barrier1
+CreateObject pos=-298;152 dir=0.25 type=Barrier1
+CreateObject pos=-302;156 dir=0.25 type=Barrier1
+CreateObject pos=-306;160 dir=0.25 type=Barrier1
+CreateObject pos=-310;164 dir=0.25 type=Barrier1
+CreateObject pos=-314;168 dir=0.25 type=Barrier1
+CreateObject pos=-318;172 dir=0.25 type=Barrier1
+CreateObject pos=-322;176 dir=0.25 type=Barrier1
+CreateObject pos=-326;180 dir=0.25 type=Barrier1
+CreateObject pos=-330;184 dir=0.25 type=Barrier1
+CreateObject pos=-334;188 dir=0.25 type=Barrier1
+CreateObject pos=-338;192 dir=0.25 type=Barrier1
+CreateObject pos=-342;196 dir=0.25 type=Barrier1
+CreateObject pos=-346;200 dir=0.25 type=Barrier1
+CreateObject pos=-350;204 dir=0.25 type=Barrier1
+CreateObject pos=-354;208 dir=0.25 type=Barrier1
+CreateObject pos=-358;212 dir=0.25 type=Barrier1
+
+CreateObject pos=-294;15 dir=0.0 type=Barrier1
+CreateObject pos=-298;15 dir=0.0 type=Barrier1
+CreateObject pos=-302;15 dir=0.0 type=Barrier1
+CreateObject pos=-306;15 dir=0.0 type=Barrier1
+CreateObject pos=-310;15 dir=0.0 type=Barrier1
+CreateObject pos=-314;15 dir=0.0 type=Barrier1
+CreateObject pos=-318;15 dir=0.0 type=Barrier1
+CreateObject pos=-322;15 dir=0.0 type=Barrier1
+CreateObject pos=-326;15 dir=0.0 type=Barrier1
+CreateObject pos=-330;15 dir=0.0 type=Barrier1
+CreateObject pos=-334;15 dir=0.0 type=Barrier1
+CreateObject pos=-338;15 dir=0.0 type=Barrier1
+CreateObject pos=-342;15 dir=0.0 type=Barrier1
+CreateObject pos=-346;15 dir=0.0 type=Barrier1
+CreateObject pos=-350;15 dir=0.0 type=Barrier1
+CreateObject pos=-354;15 dir=0.0 type=Barrier1
+CreateObject pos=-358;15 dir=0.0 type=Barrier1
+
+CreateObject pos=-180;230 dir=0.5 type=Barrier1
+CreateObject pos=-180;234 dir=0.5 type=Barrier1
+CreateObject pos=-180;238 dir=0.5 type=Barrier1
+CreateObject pos=-180;242 dir=0.5 type=Barrier1
+CreateObject pos=-180;246 dir=0.5 type=Barrier1
+CreateObject pos=-180;250 dir=0.5 type=Barrier1
+
+CreateObject pos=-178;254 dir=0.75 type=Barrier1
+CreateObject pos=-174;258 dir=0.75 type=Barrier1
+CreateObject pos=-170;262 dir=0.75 type=Barrier1
+CreateObject pos=-166;266 dir=0.75 type=Barrier1
+CreateObject pos=-162;270 dir=0.75 type=Barrier1
+CreateObject pos=-158;274 dir=0.75 type=Barrier1
+CreateObject pos=-154;278 dir=0.75 type=Barrier1
+CreateObject pos=-150;282 dir=0.75 type=Barrier1
+CreateObject pos=-146;286 dir=0.75 type=Barrier1
+CreateObject pos=-142;290 dir=0.75 type=Barrier1
+CreateObject pos=-138;294 dir=0.75 type=Barrier1
+
+CreateObject pos=-134;296 dir=0.0 type=Barrier1
+CreateObject pos=-130;296 dir=0.0 type=Barrier1
+CreateObject pos=-126;296 dir=0.0 type=Barrier1
+CreateObject pos=-122;296 dir=0.0 type=Barrier1
+CreateObject pos=-118;296 dir=0.0 type=Barrier1
+CreateObject pos=-114;296 dir=0.0 type=Barrier1
+CreateObject pos=-110;296 dir=0.0 type=Barrier1
+CreateObject pos=-106;296 dir=0.0 type=Barrier1
+CreateObject pos=-102;296 dir=0.0 type=Barrier1
+CreateObject pos=-98;296 dir=0.0 type=Barrier1
+CreateObject pos=-94;296 dir=0.0 type=Barrier1
+CreateObject pos=-90;296 dir=0.0 type=Barrier1
+CreateObject pos=-86;296 dir=0.0 type=Barrier1
+CreateObject pos=-82;296 dir=0.0 type=Barrier1
+CreateObject pos=-78;296 dir=0.0 type=Barrier1
+CreateObject pos=-74;296 dir=0.0 type=Barrier1
+CreateObject pos=-70;296 dir=0.0 type=Barrier1
+CreateObject pos=-66;296 dir=0.0 type=Barrier1
+CreateObject pos=-62;296 dir=0.0 type=Barrier1
+CreateObject pos=-58;296 dir=0.0 type=Barrier1
+CreateObject pos=-78;296 dir=0.0 type=Barrier1
+CreateObject pos=-74;296 dir=0.0 type=Barrier1
+
+CreateObject pos=-36;-40 dir=0.0 type=Barrier1
+CreateObject pos=-32;-40 dir=0.0 type=Barrier1
+CreateObject pos=-28;-40 dir=0.0 type=Barrier1
+CreateObject pos=-24;-40 dir=0.0 type=Barrier1
+CreateObject pos=-20;-40 dir=0.0 type=Barrier1
+CreateObject pos=-16;-40 dir=0.0 type=Barrier1
+CreateObject pos=-12;-40 dir=0.0 type=Barrier1
+CreateObject pos=-8;-40 dir=0.0 type=Barrier1
+CreateObject pos=-4;-40 dir=0.0 type=Barrier1
+CreateObject pos=0;-40 dir=0.0 type=Barrier1
+CreateObject pos=4;-40 dir=0.0 type=Barrier1
+
+CreateObject pos=6;-38 dir=0.5 type=Barrier1
+CreateObject pos=6;-34 dir=0.5 type=Barrier1
+CreateObject pos=6;-30 dir=0.5 type=Barrier1
+CreateObject pos=6;-26 dir=0.5 type=Barrier1
+CreateObject pos=6;-22 dir=0.5 type=Barrier1
+CreateObject pos=6;-18 dir=0.5 type=Barrier1
+CreateObject pos=6;-14 dir=0.5 type=Barrier1
+CreateObject pos=6;-10 dir=0.5 type=Barrier1
+CreateObject pos=6;-6 dir=0.5 type=Barrier1
+CreateObject pos=6;-2 dir=0.5 type=Barrier1
+CreateObject pos=6;2 dir=0.5 type=Barrier1
+CreateObject pos=6;6 dir=0.5 type=Barrier1
+CreateObject pos=6;10 dir=0.5 type=Barrier1
+CreateObject pos=6;14 dir=0.5 type=Barrier1
+CreateObject pos=6;18 dir=0.5 type=Barrier1
+CreateObject pos=6;22 dir=0.5 type=Barrier1
+CreateObject pos=6;26 dir=0.5 type=Barrier1
+CreateObject pos=6;30 dir=0.5 type=Barrier1
+CreateObject pos=6;34 dir=0.5 type=Barrier1
+CreateObject pos=6;38 dir=0.5 type=Barrier1
+CreateObject pos=6;42 dir=0.5 type=Barrier1
+CreateObject pos=6;46 dir=0.5 type=Barrier1
+CreateObject pos=6;50 dir=0.5 type=Barrier1
+CreateObject pos=6;54 dir=0.5 type=Barrier1
+CreateObject pos=6;58 dir=0.5 type=Barrier1
+CreateObject pos=6;62 dir=0.5 type=Barrier1
+CreateObject pos=6;66 dir=0.5 type=Barrier1
+CreateObject pos=6;70 dir=0.5 type=Barrier1
+CreateObject pos=6;74 dir=0.5 type=Barrier1
+CreateObject pos=6;78 dir=0.5 type=Barrier1
+CreateObject pos=6;82 dir=0.5 type=Barrier1
+CreateObject pos=6;86 dir=0.5 type=Barrier1
+
+CreateObject pos=4;90 dir=0.25 type=Barrier1
+CreateObject pos=0;94 dir=0.25 type=Barrier1
+CreateObject pos=-4;98 dir=0.25 type=Barrier1
+CreateObject pos=-8;102 dir=0.25 type=Barrier1
+CreateObject pos=-12;106 dir=0.25 type=Barrier1
+
+CreateObject pos=-16;108 dir=0.0 type=Barrier1
+CreateObject pos=-20;108 dir=0.0 type=Barrier1
+CreateObject pos=-24;108 dir=0.0 type=Barrier1
+CreateObject pos=-28;108 dir=0.0 type=Barrier1
+CreateObject pos=-32;108 dir=0.0 type=Barrier1
+CreateObject pos=-36;108 dir=0.0 type=Barrier1
+CreateObject pos=-40;108 dir=0.0 type=Barrier1
+CreateObject pos=-44;108 dir=0.0 type=Barrier1
+CreateObject pos=-48;108 dir=0.0 type=Barrier1
+CreateObject pos=-52;108 dir=0.0 type=Barrier1
+CreateObject pos=-56;108 dir=0.0 type=Barrier1
+CreateObject pos=-60;108 dir=0.0 type=Barrier1
+CreateObject pos=-64;108 dir=0.0 type=Barrier1
+CreateObject pos=-68;108 dir=0.0 type=Barrier1
+CreateObject pos=-72;108 dir=0.0 type=Barrier1
+
+CreateObject pos=-76;110 dir=0.25 type=Barrier1
+CreateObject pos=-80;114 dir=0.25 type=Barrier1
+CreateObject pos=-84;118 dir=0.25 type=Barrier1
+CreateObject pos=-88;122 dir=0.25 type=Barrier1
+CreateObject pos=-92;126 dir=0.25 type=Barrier1
+CreateObject pos=-96;130 dir=0.25 type=Barrier1
+CreateObject pos=-100;134 dir=0.25 type=Barrier1
+CreateObject pos=-104;138 dir=0.25 type=Barrier1
+CreateObject pos=-108;142 dir=0.25 type=Barrier1
+CreateObject pos=-112;146 dir=0.25 type=Barrier1
+CreateObject pos=-116;150 dir=0.25 type=Barrier1
+CreateObject pos=-120;154 dir=0.25 type=Barrier1
+CreateObject pos=-124;158 dir=0.25 type=Barrier1
+CreateObject pos=-128;162 dir=0.25 type=Barrier1
+CreateObject pos=-132;166 dir=0.25 type=Barrier1
+CreateObject pos=-136;170 dir=0.25 type=Barrier1
+CreateObject pos=-140;174 dir=0.25 type=Barrier1
+CreateObject pos=-144;178 dir=0.25 type=Barrier1
+CreateObject pos=-148;182 dir=0.25 type=Barrier1
+CreateObject pos=-152;186 dir=0.25 type=Barrier1
+
+CreateObject pos=-154;190 dir=0.5 type=Barrier1
+CreateObject pos=-154;194 dir=0.5 type=Barrier1
+CreateObject pos=-154;198 dir=0.5 type=Barrier1
+CreateObject pos=-154;202 dir=0.5 type=Barrier1
+CreateObject pos=-154;206 dir=0.5 type=Barrier1
+CreateObject pos=-154;210 dir=0.5 type=Barrier1
+CreateObject pos=-154;214 dir=0.5 type=Barrier1
+CreateObject pos=-154;218 dir=0.5 type=Barrier1
+CreateObject pos=-154;222 dir=0.5 type=Barrier1
+CreateObject pos=-154;226 dir=0.5 type=Barrier1
+CreateObject pos=-154;230 dir=0.5 type=Barrier1
+CreateObject pos=-154;234 dir=0.5 type=Barrier1
+CreateObject pos=-154;238 dir=0.5 type=Barrier1
+CreateObject pos=-154;242 dir=0.5 type=Barrier1
+CreateObject pos=-154;246 dir=0.5 type=Barrier1
+CreateObject pos=-154;250 dir=0.5 type=Barrier1
+CreateObject pos=-154;254 dir=0.5 type=Barrier1
+
+CreateObject pos=-152;258 dir=0.75 type=Barrier1
+CreateObject pos=-148;262 dir=0.75 type=Barrier1
+CreateObject pos=-144;266 dir=0.75 type=Barrier1
+CreateObject pos=-140;270 dir=0.75 type=Barrier1
+CreateObject pos=-136;274 dir=0.75 type=Barrier1
+CreateObject pos=-132;278 dir=0.75 type=Barrier1
+CreateObject pos=-128;282 dir=0.75 type=Barrier1
+CreateObject pos=-124;286 dir=0.75 type=Barrier1
+
+CreateObject pos=-120;288 dir=0.0 type=Barrier1
+CreateObject pos=-116;288 dir=0.0 type=Barrier1
+CreateObject pos=-112;288 dir=0.0 type=Barrier1
+CreateObject pos=-108;288 dir=0.0 type=Barrier1
+CreateObject pos=-104;288 dir=0.0 type=Barrier1
+CreateObject pos=-100;288 dir=0.0 type=Barrier1
+CreateObject pos=-96;288 dir=0.0 type=Barrier1
+CreateObject pos=-92;288 dir=0.0 type=Barrier1
+CreateObject pos=-88;288 dir=0.0 type=Barrier1
+CreateObject pos=-84;288 dir=0.0 type=Barrier1
+CreateObject pos=-80;288 dir=0.0 type=Barrier1
+CreateObject pos=-76;288 dir=0.0 type=Barrier1
+CreateObject pos=-72;288 dir=0.0 type=Barrier1
+CreateObject pos=-68;288 dir=0.0 type=Barrier1
+CreateObject pos=-64;288 dir=0.0 type=Barrier1
+CreateObject pos=-60;288 dir=0.0 type=Barrier1
+
+CreateObject pos=-54;294 dir=0.25 type=Barrier1
+CreateObject pos=-50;290 dir=0.25 type=Barrier1
+CreateObject pos=-46;286 dir=0.25 type=Barrier1
+CreateObject pos=-42;282 dir=0.25 type=Barrier1
+CreateObject pos=-38;278 dir=0.25 type=Barrier1
+CreateObject pos=-34;274 dir=0.25 type=Barrier1
+CreateObject pos=-30;270 dir=0.25 type=Barrier1
+CreateObject pos=-26;266 dir=0.25 type=Barrier1
+CreateObject pos=-22;262 dir=0.25 type=Barrier1
+CreateObject pos=-18;258 dir=0.25 type=Barrier1
+CreateObject pos=-14;254 dir=0.25 type=Barrier1
+CreateObject pos=-10;250 dir=0.25 type=Barrier1
+CreateObject pos=-6;246 dir=0.25 type=Barrier1
+CreateObject pos=-2;242 dir=0.25 type=Barrier1
+CreateObject pos=2;238 dir=0.25 type=Barrier1
+CreateObject pos=6;234 dir=0.25 type=Barrier1
+CreateObject pos=10;230 dir=0.25 type=Barrier1
+CreateObject pos=14;226 dir=0.25 type=Barrier1
+CreateObject pos=18;222 dir=0.25 type=Barrier1
+CreateObject pos=22;218 dir=0.25 type=Barrier1
+
+CreateObject pos=26;216 dir=0.0 type=Barrier1
+CreateObject pos=30;216 dir=0.0 type=Barrier1
+
+CreateObject pos=34;214 dir=0.25 type=Barrier1
+CreateObject pos=38;210 dir=0.25 type=Barrier1
+
+CreateObject pos=42;208 dir=0.0 type=Barrier1
+CreateObject pos=46;208 dir=0.0 type=Barrier1
+CreateObject pos=50;208 dir=0.0 type=Barrier1
+
+CreateObject pos=56;206 dir=0.25 type=Barrier1
+CreateObject pos=60;202 dir=0.25 type=Barrier1
+CreateObject pos=64;198 dir=0.25 type=Barrier1
+CreateObject pos=68;194 dir=0.25 type=Barrier1
+CreateObject pos=72;190 dir=0.25 type=Barrier1
+CreateObject pos=76;186 dir=0.25 type=Barrier1
+CreateObject pos=80;182 dir=0.25 type=Barrier1
+CreateObject pos=84;178 dir=0.25 type=Barrier1
+CreateObject pos=88;174 dir=0.25 type=Barrier1
+CreateObject pos=92;170 dir=0.25 type=Barrier1
+
+CreateObject pos=94;166 dir=0.5 type=Barrier1
+CreateObject pos=94;162 dir=0.5 type=Barrier1
+CreateObject pos=94;158 dir=0.5 type=Barrier1
+CreateObject pos=94;154 dir=0.5 type=Barrier1
+CreateObject pos=94;150 dir=0.5 type=Barrier1
+CreateObject pos=94;146 dir=0.5 type=Barrier1
+CreateObject pos=94;142 dir=0.5 type=Barrier1
+CreateObject pos=94;138 dir=0.5 type=Barrier1
+CreateObject pos=94;134 dir=0.5 type=Barrier1
+CreateObject pos=94;130 dir=0.5 type=Barrier1
+CreateObject pos=94;126 dir=0.5 type=Barrier1
+CreateObject pos=94;122 dir=0.5 type=Barrier1
+CreateObject pos=94;118 dir=0.5 type=Barrier1
+CreateObject pos=94;114 dir=0.5 type=Barrier1
+CreateObject pos=94;110 dir=0.5 type=Barrier1
+CreateObject pos=94;106 dir=0.5 type=Barrier1
+CreateObject pos=94;102 dir=0.5 type=Barrier1
+CreateObject pos=94;98 dir=0.5 type=Barrier1
+CreateObject pos=94;94 dir=0.5 type=Barrier1
+CreateObject pos=94;90 dir=0.5 type=Barrier1
+
+CreateObject pos=90;88 dir=0.0 type=Barrier1
+CreateObject pos=86;88 dir=0.0 type=Barrier1
+CreateObject pos=82;88 dir=0.0 type=Barrier1
+CreateObject pos=78;88 dir=0.0 type=Barrier1
+CreateObject pos=74;88 dir=0.0 type=Barrier1
+CreateObject pos=70;88 dir=0.0 type=Barrier1
+CreateObject pos=66;88 dir=0.0 type=Barrier1
+CreateObject pos=62;88 dir=0.0 type=Barrier1
+CreateObject pos=58;88 dir=0.0 type=Barrier1
+CreateObject pos=54;88 dir=0.0 type=Barrier1
+CreateObject pos=50;88 dir=0.0 type=Barrier1
+CreateObject pos=46;88 dir=0.0 type=Barrier1
+CreateObject pos=42;88 dir=0.0 type=Barrier1
+CreateObject pos=38;88 dir=0.0 type=Barrier1
+CreateObject pos=34;88 dir=0.0 type=Barrier1
+CreateObject pos=30;88 dir=0.0 type=Barrier1
+CreateObject pos=26;88 dir=0.0 type=Barrier1
+CreateObject pos=22;88 dir=0.0 type=Barrier1
+CreateObject pos=18;88 dir=0.0 type=Barrier1
+CreateObject pos=14;88 dir=0.0 type=Barrier1
+CreateObject pos=10;88 dir=0.0 type=Barrier1
+
+CreateObject pos=-56;286 dir=0.25 type=Barrier1
+CreateObject pos=-52;282 dir=0.25 type=Barrier1
+CreateObject pos=-48;278 dir=0.25 type=Barrier1
+CreateObject pos=-44;274 dir=0.25 type=Barrier1
+CreateObject pos=-40;270 dir=0.25 type=Barrier1
+CreateObject pos=-36;266 dir=0.25 type=Barrier1
+CreateObject pos=-32;262 dir=0.25 type=Barrier1
+CreateObject pos=-28;258 dir=0.25 type=Barrier1
+CreateObject pos=-24;254 dir=0.25 type=Barrier1
+CreateObject pos=-20;250 dir=0.25 type=Barrier1
+CreateObject pos=-16;246 dir=0.25 type=Barrier1
+CreateObject pos=-12;242 dir=0.25 type=Barrier1
+CreateObject pos=-8;238 dir=0.25 type=Barrier1
+CreateObject pos=-4;234 dir=0.25 type=Barrier1
+CreateObject pos=0;230 dir=0.25 type=Barrier1
+CreateObject pos=4;226 dir=0.25 type=Barrier1
+CreateObject pos=8;222 dir=0.25 type=Barrier1
+CreateObject pos=12;218 dir=0.25 type=Barrier1
+CreateObject pos=16;214 dir=0.25 type=Barrier1
+CreateObject pos=20;210 dir=0.25 type=Barrier1
+
+CreateObject pos=85.99;142 dir=0.5 type=Barrier1
+CreateObject pos=85.99;138 dir=0.5 type=Barrier1
+CreateObject pos=85.99;134 dir=0.5 type=Barrier1
+CreateObject pos=85.99;130 dir=0.5 type=Barrier1
+CreateObject pos=85.99;126 dir=0.5 type=Barrier1
+CreateObject pos=85.99;122 dir=0.5 type=Barrier1
+
+CreateObject pos=84;118 dir=0.75 type=Barrier1
+CreateObject pos=80;114 dir=0.75 type=Barrier1
+CreateObject pos=76;110 dir=0.75 type=Barrier1
+CreateObject pos=72;106 dir=0.75 type=Barrier1
+
+CreateObject pos=68;104 dir=0.0 type=Barrier1
+CreateObject pos=64;104 dir=0.0 type=Barrier1
+CreateObject pos=60;104 dir=0.0 type=Barrier1
+CreateObject pos=56;104 dir=0.0 type=Barrier1
+CreateObject pos=52;104 dir=0.0 type=Barrier1
+CreateObject pos=48;104 dir=0.0 type=Barrier1
+CreateObject pos=44;104 dir=0.0 type=Barrier1
+CreateObject pos=40;104 dir=0.0 type=Barrier1
+CreateObject pos=36;104 dir=0.0 type=Barrier1
+CreateObject pos=32;104 dir=0.0 type=Barrier1
+CreateObject pos=28;104 dir=0.0 type=Barrier1
+CreateObject pos=24;104 dir=0.0 type=Barrier1
+CreateObject pos=20;104 dir=0.0 type=Barrier1
+CreateObject pos=16;104 dir=0.0 type=Barrier1
+CreateObject pos=12;104 dir=0.0 type=Barrier1
+CreateObject pos=8;104 dir=0.0 type=Barrier1
+
+CreateObject pos=4;106 dir=0.25 type=Barrier1
+CreateObject pos=0;110 dir=0.25 type=Barrier1
+CreateObject pos=-4;114 dir=0.25 type=Barrier1
+CreateObject pos=-8;118 dir=0.25 type=Barrier1
+
+CreateObject pos=-12;120 dir=0.0 type=Barrier1
+CreateObject pos=-16;120 dir=0.0 type=Barrier1
+CreateObject pos=-20;120 dir=0.0 type=Barrier1
+CreateObject pos=-24;120 dir=0.0 type=Barrier1
+CreateObject pos=-28;120 dir=0.0 type=Barrier1
+CreateObject pos=-32;120 dir=0.0 type=Barrier1
+CreateObject pos=-36;120 dir=0.0 type=Barrier1
+CreateObject pos=-40;120 dir=0.0 type=Barrier1
+CreateObject pos=-44;120 dir=0.0 type=Barrier1
+CreateObject pos=-48;120 dir=0.0 type=Barrier1
+CreateObject pos=-52;120 dir=0.0 type=Barrier1
+CreateObject pos=-56;120 dir=0.0 type=Barrier1
+CreateObject pos=-60;120 dir=0.0 type=Barrier1
+CreateObject pos=-64;120 dir=0.0 type=Barrier1
+CreateObject pos=-68;120 dir=0.0 type=Barrier1
+CreateObject pos=-72;120 dir=0.0 type=Barrier1
+
+CreateObject pos=-76;122 dir=0.25 type=Barrier1
+CreateObject pos=-80;126 dir=0.25 type=Barrier1
+CreateObject pos=-84;130 dir=0.25 type=Barrier1
+CreateObject pos=-88;134 dir=0.25 type=Barrier1
+CreateObject pos=-92;138 dir=0.25 type=Barrier1
+CreateObject pos=-96;142 dir=0.25 type=Barrier1
+CreateObject pos=-100;146 dir=0.25 type=Barrier1
+CreateObject pos=-104;150 dir=0.25 type=Barrier1
+CreateObject pos=-108;154 dir=0.25 type=Barrier1
+CreateObject pos=-112;158 dir=0.25 type=Barrier1
+CreateObject pos=-116;162 dir=0.25 type=Barrier1
+CreateObject pos=-120;166 dir=0.25 type=Barrier1
+CreateObject pos=-124;170 dir=0.25 type=Barrier1
+CreateObject pos=-128;174 dir=0.25 type=Barrier1
+CreateObject pos=-132;178 dir=0.25 type=Barrier1
+CreateObject pos=-136;182 dir=0.25 type=Barrier1
+CreateObject pos=-140;186 dir=0.25 type=Barrier1
+CreateObject pos=-144;190 dir=0.25 type=Barrier1
+
+CreateObject pos=-146;194 dir=0.5 type=Barrier1
+CreateObject pos=-146;198 dir=0.5 type=Barrier1
+CreateObject pos=-146;202 dir=0.5 type=Barrier1
+CreateObject pos=-146;206 dir=0.5 type=Barrier1
+CreateObject pos=-146;210 dir=0.5 type=Barrier1
+CreateObject pos=-146;214 dir=0.5 type=Barrier1
+CreateObject pos=-146;218 dir=0.5 type=Barrier1
+CreateObject pos=-146;222 dir=0.5 type=Barrier1
+CreateObject pos=-146;226 dir=0.5 type=Barrier1
+CreateObject pos=-146;230 dir=0.5 type=Barrier1
+CreateObject pos=-146;234 dir=0.5 type=Barrier1
+CreateObject pos=-146;238 dir=0.5 type=Barrier1
+CreateObject pos=-146;242 dir=0.5 type=Barrier1
+CreateObject pos=-146;246 dir=0.5 type=Barrier1
+CreateObject pos=-146;250 dir=0.5 type=Barrier1
+
+CreateObject pos=-144;254 dir=0.75 type=Barrier1
+CreateObject pos=-140;258 dir=0.75 type=Barrier1
+CreateObject pos=-136;262 dir=0.75 type=Barrier1
+CreateObject pos=-132;266 dir=0.75 type=Barrier1
+CreateObject pos=-128;270 dir=0.75 type=Barrier1
+CreateObject pos=-124;274 dir=0.75 type=Barrier1
+CreateObject pos=-120;278 dir=0.75 type=Barrier1
+
+CreateObject pos=-116;280 dir=0.0 type=Barrier1
+CreateObject pos=-112;280 dir=0.0 type=Barrier1
+CreateObject pos=-108;280 dir=0.0 type=Barrier1
+CreateObject pos=-104;280 dir=0.0 type=Barrier1
+CreateObject pos=-100;280 dir=0.0 type=Barrier1
+CreateObject pos=-96;280 dir=0.0 type=Barrier1
+CreateObject pos=-92;280 dir=0.0 type=Barrier1
+CreateObject pos=-88;280 dir=0.0 type=Barrier1
+CreateObject pos=-84;280 dir=0.0 type=Barrier1
+CreateObject pos=-80;280 dir=0.0 type=Barrier1
+
+CreateObject pos=-76;278 dir=0.25 type=Barrier1
+CreateObject pos=-72;274 dir=0.25 type=Barrier1
+CreateObject pos=-68;270 dir=0.25 type=Barrier1
+CreateObject pos=-64;266 dir=0.25 type=Barrier1
+CreateObject pos=-60;262 dir=0.25 type=Barrier1
+CreateObject pos=-56;258 dir=0.25 type=Barrier1
+
+CreateObject pos=-22;230 dir=0.0 type=Barrier1
+CreateObject pos=-18;230 dir=0.0 type=Barrier1
+CreateObject pos=-14;230 dir=0.0 type=Barrier1
+CreateObject pos=-10;230 dir=0.0 type=Barrier1
+CreateObject pos=-6;230 dir=0.0 type=Barrier1
+CreateObject pos=-2;230 dir=0.0 type=Barrier1
+
+CreateObject pos=14;230 dir=0.0 type=Barrier1
+CreateObject pos=18;230 dir=0.0 type=Barrier1
+CreateObject pos=22;230 dir=0.0 type=Barrier1
+
+CreateObject pos=70;214 dir=0.25 type=Barrier1
+CreateObject pos=74;210 dir=0.25 type=Barrier1
+CreateObject pos=78;206 dir=0.25 type=Barrier1
+CreateObject pos=82;202 dir=0.25 type=Barrier1
+CreateObject pos=86;198 dir=0.25 type=Barrier1
+CreateObject pos=90;194 dir=0.25 type=Barrier1
+CreateObject pos=94;190 dir=0.25 type=Barrier1
+CreateObject pos=98;186 dir=0.25 type=Barrier1
+CreateObject pos=102;182 dir=0.25 type=Barrier1
+
+
+CreateObject pos=103.99;178 dir=0.5 type=Barrier1
+CreateObject pos=103.99;174 dir=0.5 type=Barrier1
+CreateObject pos=103.99;170 dir=0.5 type=Barrier1
+CreateObject pos=103.99;166 dir=0.5 type=Barrier1
+CreateObject pos=103.99;162 dir=0.5 type=Barrier1
+CreateObject pos=103.99;158 dir=0.5 type=Barrier1
+CreateObject pos=103.99;154 dir=0.5 type=Barrier1
+CreateObject pos=103.99;150 dir=0.5 type=Barrier1
+CreateObject pos=103.99;146 dir=0.5 type=Barrier1
+CreateObject pos=103.99;142 dir=0.5 type=Barrier1
+CreateObject pos=103.99;138 dir=0.5 type=Barrier1
+CreateObject pos=103.99;134 dir=0.5 type=Barrier1
+CreateObject pos=103.99;130 dir=0.5 type=Barrier1
+CreateObject pos=103.99;126 dir=0.5 type=Barrier1
+CreateObject pos=103.99;122 dir=0.5 type=Barrier1
+CreateObject pos=103.99;118 dir=0.5 type=Barrier1
+CreateObject pos=103.99;114 dir=0.5 type=Barrier1
+CreateObject pos=103.99;110 dir=0.5 type=Barrier1
+CreateObject pos=103.99;106 dir=0.5 type=Barrier1
+CreateObject pos=103.99;102 dir=0.5 type=Barrier1
+
+CreateObject pos=96;86 dir=0.25 type=Barrier1
+CreateObject pos=100;82 dir=0.25 type=Barrier1
+CreateObject pos=104;78 dir=0.25 type=Barrier1
+CreateObject pos=108;74 dir=0.25 type=Barrier1
+CreateObject pos=112;70 dir=0.25 type=Barrier1
+CreateObject pos=116;66 dir=0.25 type=Barrier1
+CreateObject pos=120;62 dir=0.25 type=Barrier1
+CreateObject pos=124;58 dir=0.25 type=Barrier1
+CreateObject pos=128;54 dir=0.25 type=Barrier1
+CreateObject pos=132;50 dir=0.25 type=Barrier1
+CreateObject pos=136;46 dir=0.25 type=Barrier1
+CreateObject pos=140;42 dir=0.25 type=Barrier1
+CreateObject pos=144;38 dir=0.25 type=Barrier1
+CreateObject pos=148;34 dir=0.25 type=Barrier1
+CreateObject pos=152;30 dir=0.25 type=Barrier1
+CreateObject pos=156;26 dir=0.25 type=Barrier1
+CreateObject pos=160;22 dir=0.25 type=Barrier1
+CreateObject pos=164;18 dir=0.25 type=Barrier1
+CreateObject pos=168;14 dir=0.25 type=Barrier1
+CreateObject pos=172;10 dir=0.25 type=Barrier1
+
+CreateObject pos=176;10 dir=0.75 type=Barrier1
+CreateObject pos=180;14 dir=0.75 type=Barrier1
+CreateObject pos=184;18 dir=0.75 type=Barrier1
+CreateObject pos=192;26 dir=0.75 type=Barrier1
+CreateObject pos=196;30 dir=0.75 type=Barrier1
+
+CreateObject pos=198;34 dir=0.5 type=Barrier1
+CreateObject pos=198;38 dir=0.5 type=Barrier1
+CreateObject pos=198;42 dir=0.5 type=Barrier1
+CreateObject pos=198;46 dir=0.5 type=Barrier1
+CreateObject pos=198;50 dir=0.5 type=Barrier1
+CreateObject pos=198;82 dir=0.5 type=Barrier1
+CreateObject pos=198;86 dir=0.5 type=Barrier1
+CreateObject pos=198;90 dir=0.5 type=Barrier1
+CreateObject pos=198;94 dir=0.5 type=Barrier1
+CreateObject pos=198;98 dir=0.5 type=Barrier1
+
+CreateObject pos=200;100 dir=0.0 type=Barrier1
+CreateObject pos=204;100 dir=0.0 type=Barrier1
+CreateObject pos=208;100 dir=0.0 type=Barrier1
+CreateObject pos=212;100 dir=0.0 type=Barrier1
+CreateObject pos=216;100 dir=0.0 type=Barrier1
+CreateObject pos=220;100 dir=0.0 type=Barrier1
+CreateObject pos=224;100 dir=0.0 type=Barrier1
+CreateObject pos=228;100 dir=0.0 type=Barrier1
+CreateObject pos=232;100 dir=0.0 type=Barrier1
+CreateObject pos=236;100 dir=0.0 type=Barrier1
+CreateObject pos=240;100 dir=0.0 type=Barrier1
+CreateObject pos=244;100 dir=0.0 type=Barrier1
+CreateObject pos=248;100 dir=0.0 type=Barrier1
+CreateObject pos=252;100 dir=0.0 type=Barrier1
+CreateObject pos=256;100 dir=0.0 type=Barrier1
+CreateObject pos=260;100 dir=0.0 type=Barrier1
+CreateObject pos=264;100 dir=0.0 type=Barrier1
+CreateObject pos=268;100 dir=0.0 type=Barrier1
+CreateObject pos=272;100 dir=0.0 type=Barrier1
+CreateObject pos=276;100 dir=0.0 type=Barrier1
+CreateObject pos=280;100 dir=0.0 type=Barrier1
+CreateObject pos=284;100 dir=0.0 type=Barrier1
+CreateObject pos=288;100 dir=0.0 type=Barrier1
+CreateObject pos=292;100 dir=0.0 type=Barrier1
+CreateObject pos=296;100 dir=0.0 type=Barrier1
+CreateObject pos=300;100 dir=0.0 type=Barrier1
+CreateObject pos=304;100 dir=0.0 type=Barrier1
+CreateObject pos=308;100 dir=0.0 type=Barrier1
+CreateObject pos=312;100 dir=0.0 type=Barrier1
+CreateObject pos=316;100 dir=0.0 type=Barrier1
+CreateObject pos=320;100 dir=0.0 type=Barrier1
+CreateObject pos=324;100 dir=0.0 type=Barrier1
+CreateObject pos=328;100 dir=0.0 type=Barrier1
+CreateObject pos=332;100 dir=0.0 type=Barrier1
+CreateObject pos=336;100 dir=0.0 type=Barrier1
+CreateObject pos=340;100 dir=0.0 type=Barrier1
+CreateObject pos=344;100 dir=0.0 type=Barrier1
+CreateObject pos=348;100 dir=0.0 type=Barrier1
+CreateObject pos=352;100 dir=0.0 type=Barrier1
+CreateObject pos=356;100 dir=0.0 type=Barrier1
+CreateObject pos=359.99;100 dir=0.0 type=Barrier1
+
+CreateObject pos=358;260 dir=0.0 type=Barrier1
+CreateObject pos=354;260 dir=0.0 type=Barrier1
+CreateObject pos=350;260 dir=0.0 type=Barrier1
+CreateObject pos=346;260 dir=0.0 type=Barrier1
+CreateObject pos=342;260 dir=0.0 type=Barrier1
+CreateObject pos=338;260 dir=0.0 type=Barrier1
+CreateObject pos=334;260 dir=0.0 type=Barrier1
+CreateObject pos=330;260 dir=0.0 type=Barrier1
+CreateObject pos=326;260 dir=0.0 type=Barrier1
+CreateObject pos=322;260 dir=0.0 type=Barrier1
+CreateObject pos=318;260 dir=0.0 type=Barrier1
+CreateObject pos=314;260 dir=0.0 type=Barrier1
+CreateObject pos=310;260 dir=0.0 type=Barrier1
+CreateObject pos=306;260 dir=0.0 type=Barrier1
+CreateObject pos=302;260 dir=0.0 type=Barrier1
+CreateObject pos=298;260 dir=0.0 type=Barrier1
+CreateObject pos=294;260 dir=0.0 type=Barrier1
+CreateObject pos=290;260 dir=0.0 type=Barrier1
+CreateObject pos=286;260 dir=0.0 type=Barrier1
+CreateObject pos=282;260 dir=0.0 type=Barrier1
+CreateObject pos=278;260 dir=0.0 type=Barrier1
+CreateObject pos=274;260 dir=0.0 type=Barrier1
+CreateObject pos=270;260 dir=0.0 type=Barrier1
+CreateObject pos=266;260 dir=0.0 type=Barrier1
+CreateObject pos=262;260 dir=0.0 type=Barrier1
+CreateObject pos=258;260 dir=0.0 type=Barrier1
+CreateObject pos=254;260 dir=0.0 type=Barrier1
+CreateObject pos=250;260 dir=0.0 type=Barrier1
+
+CreateObject pos=246;258 dir=0.75 type=Barrier1
+CreateObject pos=242;254 dir=0.75 type=Barrier1
+CreateObject pos=238;250 dir=0.75 type=Barrier1
+CreateObject pos=234;246 dir=0.75 type=Barrier1
+CreateObject pos=230;242 dir=0.75 type=Barrier1
+CreateObject pos=226;238 dir=0.75 type=Barrier1
+CreateObject pos=222;234 dir=0.75 type=Barrier1
+
+CreateObject pos=220;234 dir=0.0 type=Barrier1
+CreateObject pos=216;234 dir=0.0 type=Barrier1
+CreateObject pos=212;234 dir=0.0 type=Barrier1
+CreateObject pos=184;234 dir=0.0 type=Barrier1
+CreateObject pos=180;234 dir=0.0 type=Barrier1
+CreateObject pos=176;234 dir=0.0 type=Barrier1
+CreateObject pos=172;234 dir=0.0 type=Barrier1
+CreateObject pos=168;234 dir=0.0 type=Barrier1
+CreateObject pos=164;234 dir=0.0 type=Barrier1
+CreateObject pos=160;234 dir=0.0 type=Barrier1
+CreateObject pos=156;234 dir=0.0 type=Barrier1
+CreateObject pos=152;234 dir=0.0 type=Barrier1
+CreateObject pos=148;234 dir=0.0 type=Barrier1
+CreateObject pos=144;234 dir=0.0 type=Barrier1
+
+CreateObject pos=104;260 dir=0.25 type=Barrier1
+CreateObject pos=100;264 dir=0.25 type=Barrier1
+
+CreateObject pos=96;266 dir=0.0 type=Barrier1
+CreateObject pos=92;266 dir=0.0 type=Barrier1
+CreateObject pos=88;266 dir=0.0 type=Barrier1
+CreateObject pos=84;266 dir=0.0 type=Barrier1
+CreateObject pos=80;266 dir=0.0 type=Barrier1
+CreateObject pos=76;266 dir=0.0 type=Barrier1
+CreateObject pos=72;266 dir=0.0 type=Barrier1
+CreateObject pos=68;266 dir=0.0 type=Barrier1
+CreateObject pos=64;266 dir=0.0 type=Barrier1
+CreateObject pos=60;266 dir=0.0 type=Barrier1
+CreateObject pos=56;266 dir=0.0 type=Barrier1
+CreateObject pos=52;266 dir=0.0 type=Barrier1
+CreateObject pos=48;266 dir=0.0 type=Barrier1
+CreateObject pos=44;266 dir=0.0 type=Barrier1
+CreateObject pos=40;266 dir=0.0 type=Barrier1
+
+CreateObject pos=106;98 dir=0.25 type=Barrier1
+CreateObject pos=110;94 dir=0.25 type=Barrier1
+CreateObject pos=114;90 dir=0.25 type=Barrier1
+CreateObject pos=118;86 dir=0.25 type=Barrier1
+CreateObject pos=122;82 dir=0.25 type=Barrier1
+CreateObject pos=126;78 dir=0.25 type=Barrier1
+CreateObject pos=130;74 dir=0.25 type=Barrier1
+CreateObject pos=134;70 dir=0.25 type=Barrier1
+CreateObject pos=158;46 dir=0.25 type=Barrier1
+CreateObject pos=162;42 dir=0.25 type=Barrier1
+
+CreateObject pos=166;42 dir=0.75 type=Barrier1
+CreateObject pos=170;46 dir=0.75 type=Barrier1
+CreateObject pos=174;50 dir=0.75 type=Barrier1
+CreateObject pos=178;54 dir=0.75 type=Barrier1
+
+CreateObject pos=180;58 dir=0.5 type=Barrier1
+CreateObject pos=180;98 dir=0.5 type=Barrier1
+CreateObject pos=180;102 dir=0.5 type=Barrier1
+CreateObject pos=180;106 dir=0.5 type=Barrier1
+CreateObject pos=180;110 dir=0.5 type=Barrier1
+
+CreateObject pos=182;112 dir=0.0 type=Barrier1
+CreateObject pos=186;112 dir=0.0 type=Barrier1
+CreateObject pos=190;112 dir=0.0 type=Barrier1
+CreateObject pos=194;112 dir=0.0 type=Barrier1
+CreateObject pos=198;112 dir=0.0 type=Barrier1
+CreateObject pos=202;112 dir=0.0 type=Barrier1
+CreateObject pos=206;112 dir=0.0 type=Barrier1
+CreateObject pos=210;112 dir=0.0 type=Barrier1
+CreateObject pos=214;112 dir=0.0 type=Barrier1
+CreateObject pos=218;112 dir=0.0 type=Barrier1
+CreateObject pos=222;112 dir=0.0 type=Barrier1
+CreateObject pos=226;112 dir=0.0 type=Barrier1
+CreateObject pos=230;112 dir=0.0 type=Barrier1
+CreateObject pos=234;112 dir=0.0 type=Barrier1
+CreateObject pos=238;112 dir=0.0 type=Barrier1
+CreateObject pos=242;112 dir=0.0 type=Barrier1
+CreateObject pos=246;112 dir=0.0 type=Barrier1
+CreateObject pos=250;112 dir=0.0 type=Barrier1
+CreateObject pos=254;112 dir=0.0 type=Barrier1
+CreateObject pos=258;112 dir=0.0 type=Barrier1
+CreateObject pos=262;112 dir=0.0 type=Barrier1
+CreateObject pos=266;112 dir=0.0 type=Barrier1
+CreateObject pos=270;112 dir=0.0 type=Barrier1
+CreateObject pos=274;112 dir=0.0 type=Barrier1
+CreateObject pos=278;112 dir=0.0 type=Barrier1
+CreateObject pos=282;112 dir=0.0 type=Barrier1
+CreateObject pos=286;112 dir=0.0 type=Barrier1
+CreateObject pos=290;112 dir=0.0 type=Barrier1
+CreateObject pos=294;112 dir=0.0 type=Barrier1
+
+CreateObject pos=300;114 dir=0.75 type=Barrier1
+CreateObject pos=304;118 dir=0.75 type=Barrier1
+CreateObject pos=308;122 dir=0.75 type=Barrier1
+CreateObject pos=312;126 dir=0.75 type=Barrier1
+CreateObject pos=316;130 dir=0.75 type=Barrier1
+CreateObject pos=320;134 dir=0.75 type=Barrier1
+CreateObject pos=324;138 dir=0.75 type=Barrier1
+CreateObject pos=332;146 dir=0.75 type=Barrier1
+CreateObject pos=336;150 dir=0.75 type=Barrier1
+CreateObject pos=340;154 dir=0.75 type=Barrier1
+
+CreateObject pos=342;160 dir=0.5 type=Barrier1
+CreateObject pos=342;166 dir=0.5 type=Barrier1
+CreateObject pos=342;170 dir=0.5 type=Barrier1
+CreateObject pos=342;174 dir=0.5 type=Barrier1
+CreateObject pos=342;178 dir=0.5 type=Barrier1
+CreateObject pos=342;182 dir=0.5 type=Barrier1
+CreateObject pos=342;186 dir=0.5 type=Barrier1
+CreateObject pos=342;190 dir=0.5 type=Barrier1
+CreateObject pos=342;194 dir=0.5 type=Barrier1
+CreateObject pos=342;198 dir=0.5 type=Barrier1
+CreateObject pos=342;202 dir=0.5 type=Barrier1
+CreateObject pos=342;206 dir=0.5 type=Barrier1
+CreateObject pos=342;210 dir=0.5 type=Barrier1
+CreateObject pos=342;214 dir=0.5 type=Barrier1
+CreateObject pos=342;218 dir=0.5 type=Barrier1
+CreateObject pos=342;222 dir=0.5 type=Barrier1
+CreateObject pos=342;226 dir=0.5 type=Barrier1
+CreateObject pos=342;230 dir=0.5 type=Barrier1
+CreateObject pos=342;234 dir=0.5 type=Barrier1
+CreateObject pos=342;238 dir=0.5 type=Barrier1
+CreateObject pos=342;242 dir=0.5 type=Barrier1
+CreateObject pos=342;246 dir=0.5 type=Barrier1
+
+CreateObject pos=340;248 dir=0.0 type=Barrier1
+CreateObject pos=336;248 dir=0.0 type=Barrier1
+CreateObject pos=332;248 dir=0.0 type=Barrier1
+CreateObject pos=328;248 dir=0.0 type=Barrier1
+CreateObject pos=324;248 dir=0.0 type=Barrier1
+CreateObject pos=320;248 dir=0.0 type=Barrier1
+CreateObject pos=316;248 dir=0.0 type=Barrier1
+CreateObject pos=312;248 dir=0.0 type=Barrier1
+CreateObject pos=308;248 dir=0.0 type=Barrier1
+CreateObject pos=304;248 dir=0.0 type=Barrier1
+CreateObject pos=300;248 dir=0.0 type=Barrier1
+CreateObject pos=296;248 dir=0.0 type=Barrier1
+CreateObject pos=292;248 dir=0.0 type=Barrier1
+CreateObject pos=288;248 dir=0.0 type=Barrier1
+CreateObject pos=284;248 dir=0.0 type=Barrier1
+CreateObject pos=280;248 dir=0.0 type=Barrier1
+CreateObject pos=276;248 dir=0.0 type=Barrier1
+CreateObject pos=272;248 dir=0.0 type=Barrier1
+CreateObject pos=268;248 dir=0.0 type=Barrier1
+CreateObject pos=264;248 dir=0.0 type=Barrier1
+
+CreateObject pos=260;246 dir=0.75 type=Barrier1
+CreateObject pos=256;242 dir=0.75 type=Barrier1
+CreateObject pos=252;238 dir=0.75 type=Barrier1
+CreateObject pos=248;234 dir=0.75 type=Barrier1
+CreateObject pos=244;230 dir=0.75 type=Barrier1
+CreateObject pos=240;226 dir=0.75 type=Barrier1
+CreateObject pos=236;222 dir=0.75 type=Barrier1
+CreateObject pos=232;218 dir=0.75 type=Barrier1
+
+CreateObject pos=228;216 dir=0.0 type=Barrier1
+CreateObject pos=224;216 dir=0.0 type=Barrier1
+CreateObject pos=220;216 dir=0.0 type=Barrier1
+CreateObject pos=216;216 dir=0.0 type=Barrier1
+CreateObject pos=212;216 dir=0.0 type=Barrier1
+CreateObject pos=208;216 dir=0.0 type=Barrier1
+CreateObject pos=204;216 dir=0.0 type=Barrier1
+CreateObject pos=200;216 dir=0.0 type=Barrier1
+CreateObject pos=196;216 dir=0.0 type=Barrier1
+CreateObject pos=192;216 dir=0.0 type=Barrier1
+CreateObject pos=188;216 dir=0.0 type=Barrier1
+
+CreateObject pos=180;222 dir=0.25 type=Barrier1
+CreateObject pos=176;226 dir=0.25 type=Barrier1
+CreateObject pos=172;230 dir=0.25 type=Barrier1
+CreateObject pos=168;234 dir=0.25 type=Barrier1
+CreateObject pos=164;238 dir=0.25 type=Barrier1
+CreateObject pos=160;242 dir=0.25 type=Barrier1
+
+CreateObject pos=78;280 dir=0.0 type=Barrier1
+CreateObject pos=74;280 dir=0.0 type=Barrier1
+CreateObject pos=70;280 dir=0.0 type=Barrier1
+CreateObject pos=66;280 dir=0.0 type=Barrier1
+CreateObject pos=62;280 dir=0.0 type=Barrier1
+CreateObject pos=58;280 dir=0.0 type=Barrier1
+CreateObject pos=54;280 dir=0.0 type=Barrier1
+CreateObject pos=50;280 dir=0.0 type=Barrier1
+CreateObject pos=46;280 dir=0.0 type=Barrier1
+CreateObject pos=42;280 dir=0.0 type=Barrier1
+
+CreateObject pos=38;276 dir=0.5 type=Barrier1
+CreateObject pos=38;272 dir=0.5 type=Barrier1
+CreateObject pos=38;268 dir=0.5 type=Barrier1
+
+CreateObject pos=190;-228 dir=0.5 type=Barrier1
+CreateObject pos=190;-232 dir=0.5 type=Barrier1
+CreateObject pos=190;-236 dir=0.5 type=Barrier1
+
+CreateObject pos=210;-254 dir=0.5 type=Barrier1
+CreateObject pos=210;-250 dir=0.5 type=Barrier1
+CreateObject pos=210;-246 dir=0.5 type=Barrier1
+CreateObject pos=210;-242 dir=0.5 type=Barrier1
+
+CreateObject pos=170;-248 dir=0.5 type=Barrier1
+CreateObject pos=170;-244 dir=0.5 type=Barrier1
+CreateObject pos=170;-240 dir=0.5 type=Barrier1
+
+CreateObject pos=345;-208 dir=0.5 type=Barrier1
+CreateObject pos=345;-204 dir=0.5 type=Barrier1
+CreateObject pos=345;-200 dir=0.5 type=Barrier1
+CreateObject pos=345;-196 dir=0.5 type=Barrier1
+CreateObject pos=345;-192 dir=0.5 type=Barrier1
+CreateObject pos=345;-188 dir=0.5 type=Barrier1
+CreateObject pos=345;-184 dir=0.5 type=Barrier1
+CreateObject pos=345;-180 dir=0.5 type=Barrier1
+CreateObject pos=345;-176 dir=0.5 type=Barrier1
+CreateObject pos=345;-172 dir=0.5 type=Barrier1
+CreateObject pos=345;-168 dir=0.5 type=Barrier1
+CreateObject pos=345;-164 dir=0.5 type=Barrier1
+CreateObject pos=345;-160 dir=0.5 type=Barrier1
+CreateObject pos=345;-156 dir=0.5 type=Barrier1
+CreateObject pos=345;-152 dir=0.5 type=Barrier1
+CreateObject pos=345;-148 dir=0.5 type=Barrier1
+CreateObject pos=345;-144 dir=0.5 type=Barrier1
+CreateObject pos=345;-140 dir=0.5 type=Barrier1
+CreateObject pos=345;-136 dir=0.5 type=Barrier1
+CreateObject pos=345;-132 dir=0.5 type=Barrier1
+CreateObject pos=345;-128 dir=0.5 type=Barrier1
+CreateObject pos=345;-124 dir=0.5 type=Barrier1
+CreateObject pos=345;-120 dir=0.5 type=Barrier1
+CreateObject pos=345;-116 dir=0.5 type=Barrier1
+CreateObject pos=345;-112 dir=0.5 type=Barrier1
+CreateObject pos=345;-108 dir=0.5 type=Barrier1
+CreateObject pos=345;-104 dir=0.5 type=Barrier1
+CreateObject pos=345;-100 dir=0.5 type=Barrier1
+CreateObject pos=345;-96 dir=0.5 type=Barrier1
+CreateObject pos=345;-92 dir=0.5 type=Barrier1
+CreateObject pos=345;-88 dir=0.5 type=Barrier1
+CreateObject pos=345;-84 dir=0.5 type=Barrier1
+CreateObject pos=345;-80 dir=0.5 type=Barrier1
+CreateObject pos=345;-76 dir=0.5 type=Barrier1
+
+CreateObject pos=348;-73 dir=0.0 type=Barrier1
+CreateObject pos=352;-73 dir=0.0 type=Barrier1
+CreateObject pos=356;-73 dir=0.0 type=Barrier1
+
+CreateObject pos=356;-280 dir=0.0 type=Barrier1
+
+CreateObject pos=208;-250 dir=0.0 type=Barrier1
+CreateObject pos=204;-250 dir=0.0 type=Barrier1
+CreateObject pos=200;-250 dir=0.0 type=Barrier1
+CreateObject pos=196;-250 dir=0.0 type=Barrier1
+CreateObject pos=192;-250 dir=0.0 type=Barrier1
+CreateObject pos=188;-250 dir=0.0 type=Barrier1
+CreateObject pos=184;-250 dir=0.0 type=Barrier1
+CreateObject pos=180;-250 dir=0.0 type=Barrier1
+CreateObject pos=176;-250 dir=0.0 type=Barrier1
+CreateObject pos=172;-250 dir=0.0 type=Barrier1
+CreateObject pos=168;-250 dir=0.0 type=Barrier1
+CreateObject pos=164;-250 dir=0.0 type=Barrier1
+CreateObject pos=160;-250 dir=0.0 type=Barrier1
+CreateObject pos=156;-250 dir=0.0 type=Barrier1
+CreateObject pos=152;-250 dir=0.0 type=Barrier1
+CreateObject pos=148;-250 dir=0.0 type=Barrier1
+CreateObject pos=144;-250 dir=0.0 type=Barrier1
+CreateObject pos=140;-250 dir=0.0 type=Barrier1
+CreateObject pos=136;-250 dir=0.0 type=Barrier1
+CreateObject pos=132;-250 dir=0.0 type=Barrier1
+CreateObject pos=128;-250 dir=0.0 type=Barrier1
+CreateObject pos=124;-250 dir=0.0 type=Barrier1
+CreateObject pos=120;-250 dir=0.0 type=Barrier1
+CreateObject pos=116;-250 dir=0.0 type=Barrier1
+
+CreateObject pos=114;-250 dir=0.75 type=Barrier1
+CreateObject pos=110;-254 dir=0.75 type=Barrier1
+CreateObject pos=106;-258 dir=0.75 type=Barrier1
+CreateObject pos=102;-262 dir=0.75 type=Barrier1
+CreateObject pos=98;-266 dir=0.75 type=Barrier1
+CreateObject pos=94;-270 dir=0.75 type=Barrier1
+CreateObject pos=90;-274 dir=0.75 type=Barrier1
+CreateObject pos=86;-278 dir=0.75 type=Barrier1
+CreateObject pos=82;-282 dir=0.75 type=Barrier1
+CreateObject pos=74;-290 dir=0.75 type=Barrier1
+CreateObject pos=70;-294 dir=0.75 type=Barrier1
+CreateObject pos=62;-302 dir=0.75 type=Barrier1
+CreateObject pos=58;-306 dir=0.75 type=Barrier1
+CreateObject pos=54;-310 dir=0.75 type=Barrier1
+CreateObject pos=50;-314 dir=0.75 type=Barrier1
+CreateObject pos=46;-318 dir=0.75 type=Barrier1
+CreateObject pos=42;-322 dir=0.75 type=Barrier1
+CreateObject pos=38;-326 dir=0.75 type=Barrier1
+CreateObject pos=34;-330 dir=0.75 type=Barrier1
+
+CreateObject pos=34;-330 dir=0.0 type=Barrier1
+CreateObject pos=30;-330 dir=0.0 type=Barrier1
+CreateObject pos=26;-330 dir=0.0 type=Barrier1
+CreateObject pos=22;-330 dir=0.0 type=Barrier1
+CreateObject pos=18;-330 dir=0.0 type=Barrier1
+CreateObject pos=14;-330 dir=0.0 type=Barrier1
+CreateObject pos=10;-330 dir=0.0 type=Barrier1
+
+CreateObject pos=-18;-318 dir=0.25 type=Barrier1
+CreateObject pos=-22;-314 dir=0.25 type=Barrier1
+CreateObject pos=-26;-310 dir=0.25 type=Barrier1
+CreateObject pos=-30;-306 dir=0.25 type=Barrier1
+
+CreateObject pos=-32;-306 dir=0.0 type=Barrier1
+
+CreateObject pos=-132;-302 dir=0.25 type=Barrier1
+CreateObject pos=-136;-298 dir=0.25 type=Barrier1
+CreateObject pos=-140;-294 dir=0.25 type=Barrier1
+CreateObject pos=-144;-290 dir=0.25 type=Barrier1
+
+CreateObject pos=-228;24 dir=0.5 type=Barrier1
+CreateObject pos=-228;28 dir=0.5 type=Barrier1
+CreateObject pos=-228;32 dir=0.5 type=Barrier1
+CreateObject pos=-228;36 dir=0.5 type=Barrier1
+CreateObject pos=-228;40 dir=0.5 type=Barrier1
+CreateObject pos=-228;44 dir=0.5 type=Barrier1
+
+CreateObject pos=-230;48 dir=0.25 type=Barrier1
+CreateObject pos=-234;52 dir=0.25 type=Barrier1
+CreateObject pos=-238;56 dir=0.25 type=Barrier1
+CreateObject pos=-242;60 dir=0.25 type=Barrier1
+CreateObject pos=-246;64 dir=0.25 type=Barrier1
+CreateObject pos=-250;68 dir=0.25 type=Barrier1
+CreateObject pos=-254;72 dir=0.25 type=Barrier1
+CreateObject pos=-258;76 dir=0.25 type=Barrier1
+CreateObject pos=-262;80 dir=0.25 type=Barrier1
+CreateObject pos=-266;84 dir=0.25 type=Barrier1
+CreateObject pos=-270;88 dir=0.25 type=Barrier1
+CreateObject pos=-274;92 dir=0.25 type=Barrier1
+CreateObject pos=-278;96 dir=0.25 type=Barrier1
+
+CreateObject pos=-172;-190 dir=0.0 type=Barrier1
+CreateObject pos=-168;-190 dir=0.0 type=Barrier1
+CreateObject pos=-164;-190 dir=0.0 type=Barrier1
+CreateObject pos=-160;-190 dir=0.0 type=Barrier1
+CreateObject pos=-156;-190 dir=0.0 type=Barrier1
+CreateObject pos=-152;-190 dir=0.0 type=Barrier1
+CreateObject pos=-148;-190 dir=0.0 type=Barrier1
+CreateObject pos=-144;-190 dir=0.0 type=Barrier1
+CreateObject pos=-140;-190 dir=0.0 type=Barrier1
+//CreateObject pos=-136;-190 dir=0.0 type=Barrier1
+
+CreateObject pos=352;-140 dir=0.0 type=Target1 h=-75
+CreateObject pos=352;-140 dir=0.0 type=Target2 h=-75
+
+CreateObject pos=325;-255 dir=0.5 type=Target1 h=-75
+CreateObject pos=325;-255 dir=0.5 type=Target2 h=-75
+
+CreateObject pos=240;-253 dir=0.75 type=Target1 h=-75
+CreateObject pos=240;-253 dir=0.75 type=Target2 h=-75
+
+CreateObject pos=170;-232 dir=0.5 type=Target1 h=-75
+CreateObject pos=170;-232 dir=0.5 type=Target2 h=-75
+
+CreateObject pos=65;-295 dir=0.25 type=Target1 h=-75
+CreateObject pos=65;-295 dir=0.25 type=Target2 h=-75
+
+CreateObject pos=-60;-282.5 dir=0.5 type=Target1 h=-75
+CreateObject pos=-60;-282.5 dir=0.5 type=Target2 h=-75
+
+CreateObject pos=-148;-243.5 dir=0.85 type=Target1 h=-75
+CreateObject pos=-148;-243.5 dir=0.85 type=Target2 h=-75
+
+CreateObject pos=-185;-145 dir=0.85 type=Target1 h=-75
+CreateObject pos=-185;-145 dir=0.85 type=Target2 h=-75
+
+CreateObject pos=-207;-1 dir=0.95 type=Target1 h=-75
+CreateObject pos=-207;-1 dir=0.95 type=Target2 h=-75
+
+CreateObject pos=-300;148 dir=0.75 type=Target1 h=-75
+CreateObject pos=-300;148 dir=0.75 type=Target2 h=-75
+
+CreateObject pos=-350;85 dir=0.0 type=Target1 h=-75
+CreateObject pos=-350;85 dir=0.0 type=Target2 h=-75
+
+CreateObject pos=-290;33 dir=1.4 type=Target1 h=-75
+CreateObject pos=-290;33 dir=1.4 type=Target2 h=-75
+
+CreateObject pos=-55;-10 dir=1.65 type=Target1 h=-75
+CreateObject pos=-55;-10 dir=1.65 type=Target2 h=-75
+
+CreateObject pos=1;35 dir=0.0 type=Target1 h=-75
+CreateObject pos=1;35 dir=0.0 type=Target2 h=-75
+
+CreateObject pos=-160;260 dir=0.25 type=Target1 h=-75
+CreateObject pos=-160;260 dir=0.25 type=Target2 h=-75
+
+CreateObject pos=-28;263 dir=0.75 type=Target1 h=-75
+CreateObject pos=-28;263 dir=0.75 type=Target2 h=-75
+
+CreateObject pos=90;153 dir=0.0 type=Target1 h=-75
+CreateObject pos=90;153 dir=0.0 type=Target2 h=-75
+
+CreateObject pos=-50;115 dir=0.5 type=Target1 h=-75
+CreateObject pos=-50;115 dir=0.5 type=Target2 h=-75
+
+CreateObject pos=-135;269 dir=0.25 type=Target1 h=-75
+CreateObject pos=-135;269 dir=0.25 type=Target2 h=-75
+
+CreateObject pos=76;196 dir=0.75 type=Target1 h=-75
+CreateObject pos=76;196 dir=0.75 type=Target2 h=-75
+
+CreateObject pos=118;74 dir=0.75 type=Target1 h=-75
+CreateObject pos=118;74 dir=0.75 type=Target2 h=-75
+
+CreateObject pos=210;106 dir=0.5 type=Target1 h=-75
+CreateObject pos=210;106 dir=0.5 type=Target2 h=-75
+
+CreateObject pos=350;180 dir=0.0 type=Target1 h=-75
+CreateObject pos=350;180 dir=0.0 type=Target2 h=-75
+
+CreateObject pos=284;254 dir=0.5 type=Target1 h=-75
+CreateObject pos=284;254 dir=0.5 type=Target2 h=-75
+
+CreateObject pos=120;254 dir=0.75 type=Target1 h=-75
+CreateObject pos=120;254 dir=0.75 type=Target2 h=-75
+
+CreateObject pos=45;273 dir=0.5 type=StartArea
+CreateObject pos=45;273 dir=0.5 type=Target2 h=-70
+
+CreateObject pos=358;-209 dir=1.5 type=RoadSign7
+CreateObject pos=346;-209 dir=1.5 type=RoadSign7
+
+CreateObject pos=358;-213 dir=1.5 type=RoadSign9
+CreateObject pos=346;-213 dir=1.5 type=RoadSign9
+
+CreateObject pos=358;-217 dir=1.5 type=RoadSign13
+CreateObject pos=346;-217 dir=1.5 type=RoadSign13
+
+CreateObject pos=354;-279 dir=1.5 type=RoadSign18
+
+CreateObject pos=338;-262 dir=0.0 type=RoadSign9
+
+CreateObject pos=211;-240 dir=0.0 type=RoadSign20
+CreateObject pos=191;-238 dir=0.0 type=RoadSign19
+CreateObject pos=171;-238 dir=0.0 type=RoadSign20
+
+CreateObject pos=82;-236 dir=0.0 type=RoadSign17
+CreateObject pos=82;-238 dir=0.0 type=RoadSign17
+CreateObject pos=82;-240 dir=0.0 type=RoadSign17
+
+CreateObject pos=76;-272 dir=1.75 type=RoadSign8
+
+CreateObject pos=-44;-290 dir=0.0 type=RoadSign9
+
+CreateObject pos=-134;-280 dir=0.0 type=RoadSign18
+CreateObject pos=-134;-282 dir=0.0 type=RoadSign18
+CreateObject pos=-134;-284 dir=0.0 type=RoadSign18
+
+CreateObject pos=-140;-196 dir=0.5 type=RoadSign20
+
+CreateObject pos=-128;-162 dir=0.5 type=RoadSign17
+CreateObject pos=-130;-162 dir=0.5 type=RoadSign17
+CreateObject pos=-132;-162 dir=0.5 type=RoadSign17
+
+CreateObject pos=-180;-176 dir=0.0 type=RoadSign18
+CreateObject pos=-180;-174 dir=0.0 type=RoadSign18
+CreateObject pos=-180;-178 dir=0.0 type=RoadSign18
+
+CreateObject pos=-178;-150 dir=0.5 type=RoadSign9
+
+CreateObject pos=-212;-3 dir=0.5 type=RoadSign20
+CreateObject pos=-201.5;-1.5 dir=0.5 type=RoadSign19
+
+CreateObject pos=-216;68 dir=0.5 type=RoadSign17
+CreateObject pos=-218;70 dir=0.5 type=RoadSign17
+CreateObject pos=-220;72 dir=0.5 type=RoadSign17
+
+CreateObject pos=-292;132 dir=0.25 type=RoadSign9
+
+CreateObject pos=-316;168 dir=0.25 type=RoadSign6
+
+CreateObject pos=-355.5;86.5 dir=1.5 type=RoadSign19
+CreateObject pos=-344.5;86.5 dir=1.5 type=RoadSign20
+
+CreateObject pos=-354;16 dir=1.5 type=RoadSign17
+CreateObject pos=-352;16 dir=1.5 type=RoadSign17
+CreateObject pos=-350;16 dir=1.5 type=RoadSign17
+
+CreateObject pos=-290;24 dir=1.0 type=RoadSign9
+
+CreateObject pos=-294;42 dir=1.0 type=RoadSign20
+
+CreateObject pos=-264;64 dir=0.5 type=RoadSign9
+
+CreateObject pos=-255;40 dir=1.0 type=RoadSign13
+
+CreateObject pos=-170;42 dir=1.0 type=RoadSign9
+
+CreateObject pos=4;-14 dir=1.0 type=RoadSign17
+CreateObject pos=4;-16 dir=1.0 type=RoadSign17
+CreateObject pos=4;-18 dir=1.0 type=RoadSign17
+
+CreateObject pos=-12;70 dir=0.25 type=RoadSign9
+CreateObject pos=-156;245 dir=0.5 type=RoadSign9
+
+CreateObject pos=-56;294 dir=1.0 type=RoadSign18
+CreateObject pos=-54;292 dir=1.0 type=RoadSign18
+CreateObject pos=-52;290 dir=1.0 type=RoadSign18
+
+CreateObject pos=26;206 dir=1.25 type=RoadSign9
+
+CreateObject pos=86;90 dir=1.5 type=RoadSign18
+CreateObject pos=84;90 dir=1.5 type=RoadSign18
+CreateObject pos=82;90 dir=1.5 type=RoadSign18
+
+CreateObject pos=-76;280 dir=1.0 type=RoadSign9
+
+CreateObject pos=-30;240 dir=1.25 type=RoadSign13
+
+CreateObject pos=112.5;72 dir=1.25 type=RoadSign8
+
+CreateObject pos=120;79 dir=1.25 type=RoadSign6
+
+CreateObject pos=176;14 dir=1.25 type=RoadSign17
+CreateObject pos=178;16 dir=1.25 type=RoadSign17
+CreateObject pos=180;18 dir=1.25 type=RoadSign17
+
+CreateObject pos=188;110 dir=0.5 type=RoadSign18
+CreateObject pos=190;110 dir=0.5 type=RoadSign18
+CreateObject pos=192;110 dir=0.5 type=RoadSign18
+
+CreateObject pos=182;68 dir=0.5 type=RoadSign7
+
+CreateObject pos=358;104 dir=1.0 type=RoadSign17
+CreateObject pos=358;106 dir=1.0 type=RoadSign17
+CreateObject pos=358;108 dir=1.0 type=RoadSign17
+
+CreateObject pos=344.5;178.5 dir=.5 type=RoadSign20
+CreateObject pos=355.5;178.5 dir=.5 type=RoadSign19
+
+CreateObject pos=358;206 dir=.5 type=RoadSign6
+
+CreateObject pos=224;234 dir=1.75 type=RoadSign8
+
+CreateObject pos=190;228 dir=0.1 type=RoadSign13
+
+CreateObject pos=-196;218 dir=0.0 type=RoadSign9
+
+CreateObject pos=132;250 dir=0.1 type=RoadSign9
+
+CreateObject pos=46;270 dir=0.0 type=RoadSign20
+CreateObject pos=46.5;276 dir=0.0 type=RoadSign19
+
+CreateObject pos=358;-236 dir=0.0 type=Mine
+CreateObject pos=356;-236 dir=0.0 type=Mine
+CreateObject pos=354;-236 dir=0.0 type=Mine
+CreateObject pos=352;-236 dir=0.0 type=Mine
+CreateObject pos=350;-236 dir=0.0 type=Mine
+CreateObject pos=348;-236 dir=0.0 type=Mine
+
+CreateObject pos=-261.69;74.31 dir=0.0 type=Me selectable=0 script1="%chap%/ai/timer.cbot" run=1
+CreateObject pos=-270;70 dir=0.5 type=Me selectable=0
+CreateObject pos=-120.80;-184.75 dir=0.5 type=Me selectable=0
+CreateObject pos=-120.80;-195.67 dir=1.5 type=Me selectable=0
+
+
+//CreateObject pos=168;234 dir=1.1 type=Door1 cmdline=10000;0;1 run=1
+//CreateObject pos=-130;-190 dir=1.5 type=Door1 cmdline=10000;0;2 run=1
+
+CreateObject pos=50;284 dir=0.0 type=Pub94
+//CreateObject pos=96;262 dir=0.0 type=Pub93
+//CreateObject pos=122;244 dir=0.25 type=Pub92
+CreateObject pos=222;240 dir=0.75 type=Pub91
+//CreateObject pos=250;230 dir=0.75 type=Pub74
+CreateObject pos=250;230 dir=0.75 type=Pub92
+//CreateObject pos=270;244 dir=0.0 type=Pub81
+//CreateObject pos=332;264 dir=0.5 type=Pub82
+CreateObject pos=352;264 dir=0.5 type=Pub83
+CreateObject pos=338;160 dir=0.75 type=Pub84
+CreateObject pos=302;124 dir=0.75 type=Pub71
+CreateObject pos=200;98 dir=0.75 type=Pub72
+//CreateObject pos=164;44 dir=0.5 type=Pub73
+CreateObject pos=202;44 dir=0.75 type=Pub74
+CreateObject pos=130;80 dir=0.25 type=Pub61
+//CreateObject pos=110;100 dir=0.25 type=Pub62
+CreateObject pos=108;120 dir=0.5 type=Pub63
+//CreateObject pos=108;150 dir=0.5 type=Pub64
+//CreateObject pos=40;84 dir=0.0 type=Pub51
+CreateObject pos=66;108 dir=0.0 type=Pub52
+CreateObject pos=0;224 dir=0.25 type=Pub53
+CreateObject pos=-85;300 dir=0.0 type=Pub54
+//CreateObject pos=-100;275 dir=0.0 type=Pub41
+//CreateObject pos=-140;254 dir=0.75 type=Pub42
+//CreateObject pos=-136;188 dir=0.25 type=Pub43
+CreateObject pos=-116;168 dir=0.25 type=Pub44
+//CreateObject pos=-96;148 dir=0.25 type=Pub31
+CreateObject pos=10;85 dir=0.75 type=Pub32
+CreateObject pos=9;0 dir=0.0 type=Pub33
+CreateObject pos=-336;196 dir=0.25 type=Pub34
+//CreateObject pos=-316;176 dir=0.25 type=Pub21
+//CreateObject pos=-296;156 dir=0.25 type=Pub22
+//CreateObject pos=-276;136 dir=0.25 type=Pub23
+CreateObject pos=-256;116 dir=0.25 type=Pub24
+//CreateObject pos=-236;96 dir=0.25 type=Pub11
+CreateObject pos=-122;-200 dir=0.75 type=Pub12
+CreateObject pos=-122;-164 dir=0.75 type=Pub13
+//CreateObject pos=-140;-296 dir=0.75 type=Pub14
+//CreateObject pos=356;-284 dir=0.5 type=Pub81
+//CreateObject pos=206;-256 dir=0.0 type=Pub82
+//CreateObject pos=158;-220 dir=0.0 type=Pub83
+CreateObject pos=158;-220 dir=0.0 type=Pub93
+//CreateObject pos=95;-274 dir=0.75 type=Pub84
+
+CreateObject pos=-28;-315 dir=0.25 type=PowerCaptor selectable=0
+CreateObject pos=-10;-275 dir=1.0 type=Converter selectable=0
+CreateObject pos=-28;-264 dir=0.25 type=BotFactory selectable=0
+CreateObject pos=352;88 dir=0.5 type=NuclearPlant selectable=0
+
+CreateObject pos=-180;256 dir=0.25 type=PowerStation selectable=0
+CreateObject pos=-180;256 dir=0.25 type=PowerStation h=-1 selectable=0
+CreateObject pos=-180;256 dir=0.25 type=PowerStation h=-1 selectable=0
+CreateObject pos=-180;256 dir=0.25 type=PowerStation h=-1 selectable=0
+CreateObject pos=-180;256 dir=0.25 type=PowerStation h=-1 selectable=0
+CreateObject pos=-180;256 dir=0.25 type=PowerStation h=-1 selectable=0
+//CreateObject pos=-180;256 dir=0.5 type=PowerStation h=-1 selectable=0
+//CreateObject pos=-180;256 dir=0.5 type=PowerStation h=-1 selectable=0
+//CreateObject pos=-180;256 dir=0.5 type=PowerStation h=-1 selectable=0
+//CreateObject pos=-180;256 dir=0.5 type=PowerStation h=-1 selectable=0
+//CreateObject pos=-180;256 dir=0.5 type=PowerStation h=-1 selectable=0
+//CreateObject pos=-180;256 dir=0.5 type=PowerStation h=-1 selectable=0
+//CreateObject pos=-180;256 dir=0.0 type=PowerStation h=-1 selectable=0
+//CreateObject pos=-180;256 dir=0.0 type=PowerStation h=-1 selectable=0
+//CreateObject pos=-180;256 dir=0.0 type=PowerStation h=-1 selectable=0
+//CreateObject pos=-180;256 dir=0.0 type=PowerStation h=-1 selectable=0
+//CreateObject pos=-180;256 dir=0.0 type=PowerStation h=-1 selectable=0
+//CreateObject pos=-180;256 dir=0.0 type=PowerStation h=-1 selectable=0
+
+CreateObject pos=-20;-270 dir=0.5 type=WheeledGrabber power=100 script1="titan3.txt" run=1 selectable=0
+CreateObject pos=-180;256 dir=0.25 type=PhazerShooter script1="%chap%/ai/firework.cbot" run=1 selectable=0
+
+CreateObject pos=-15;-254 dir=0.1 type=TitaniumOre
+CreateObject pos=-13;-255 dir=0.2 type=TitaniumOre
+CreateObject pos=-15;-257 dir=0.3 type=TitaniumOre
+CreateObject pos=-19;-256 dir=0.4 type=TitaniumOre
+CreateObject pos=-18;-253 dir=0.5 type=TitaniumOre
+CreateObject pos=-15;-252 dir=0.6 type=TitaniumOre
+CreateObject pos=-16;-250 dir=0.7 type=TitaniumOre
+CreateObject pos=-20;-253 dir=0.8 type=TitaniumOre
+CreateObject pos=-16;-249 dir=0.9 type=TitaniumOre
+CreateObject pos=14;-250 dir=0.5 type=TitaniumOre
+CreateObject pos=13;-253 dir=0.3 type=TitaniumOre
+CreateObject pos=16;-254 dir=0.8 type=TitaniumOre
+CreateObject pos=17;-251 dir=0.3 type=TitaniumOre
+CreateObject pos=16;-249 dir=0.2 type=TitaniumOre
+CreateObject pos=13;-248 dir=0.8 type=TitaniumOre
+CreateObject pos=12;-245 dir=0.3 type=TitaniumOre
+CreateObject pos=14;-244 dir=0.0 type=TitaniumOre
+CreateObject pos=17;-243 dir=0.1 type=TitaniumOre
+
+CreateObject pos=115;-167 dir=1.5 type=RuinBaseCamp h=-9.0
+CreateObject pos=91;-165 dir=1.6 type=RuinHeadCamp
+CreateObject pos=77;-150 dir=0.1 type=RuinBotFactory
+CreateObject pos=66;-164 dir=0.4 type=RuinConvert
+CreateObject pos=69;-161 dir=0.0 type=RuinDoor
+CreateObject pos=62;-150 dir=0.7 type=RuinRadar
+CreateObject pos=60;-151 dir=0.0 type=RuinSupport
+
+CreateObject pos=76;-163 dir=0.0 type=WreckBotw1
+CreateObject pos=56;-158 dir=0.5 type=WreckBott1
+
+CreateLight dir= 0.0;-1.0; 0.0 color= 0.63; 0.63; 0.63 type=Terrain
+CreateLight dir= 1.0; 0.0;-1.0 color=-0.70;-0.70;-0.70 type=Terrain
+CreateLight dir=-1.0; 0.0; 1.0 color= 1.40; 1.40; 1.40 type=Terrain
+CreateLight dir=-1.0;-1.0; 1.0 color= 0.56; 0.56; 0.56 type=Object
+CreateLight dir= 1.0;-1.0; 1.0 color= 0.32; 0.32; 0.32 type=Object
+CreateLight dir=-1.0;-1.0;-1.0 color= 0.32; 0.32; 0.32 type=Object
+CreateLight dir= 1.0;-1.0;-1.0 color= 0.16; 0.16; 0.16 type=Object
+WaterColor color=-0.2;-0.5;-0.8
+
+MapColor floor=97;86;89 water=1.000;0.682;0.251
+MapZoom factor=1.0 enable=0
+
+EndMissionTake pos=0;0 dist=25000 type=Car lost=0
+EndMissionTake pos=0;0 dist=1000 type=Target min=0 max=0 show=-1
+EndMissionTake pos=0;0 dist=1000 type=Target2 min=0 max=0

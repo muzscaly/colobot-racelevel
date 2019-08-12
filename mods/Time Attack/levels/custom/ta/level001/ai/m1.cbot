@@ -1,7 +1,0 @@
-extern void object::Terralice()
-{
-
-	message("Now playing: Emxx52 - Under Counstruction (Terralice Theme)");
-	playmusic("music/Terralice.ogg",1);
-	
-}

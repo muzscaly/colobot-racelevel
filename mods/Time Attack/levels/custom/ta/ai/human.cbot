@@ -1,0 +1,6 @@
+extern void object::Pretend()
+{
+	move(5.25);
+    wait(1);
+	action(0, 1); //build animation???
+}
