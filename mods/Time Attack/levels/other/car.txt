@@ -1,0 +1,14 @@
+AmbientColor  air=0.471;0.471;0.471;
+FogColor      air=0.392;0.392;0.353;
+DeepView      air=100.00
+FogStart      air=0.9
+Background    up=0.184;0.153;0.184;0.000 down=0.184;0.153;0.184;
+
+BeginObject
+CreateObject pos=0;0 dir=1.85 type=Car
+CreateObject pos=0;0 dir=1.85 type=Support
+
+CreateLight dir= 1.0;-1.0; 0.0 color= 0.30; 0.30; 0.30 type=Object
+CreateLight dir=-1.0;-1.0; 0.0 color= 1.00; 1.00; 1.00 type=Object
+CreateLight dir= 0.0;-1.0; 1.0 color= 0.60; 0.60; 0.60 type=Object
+CreateLight dir= 0.0;-1.0;-1.0 color= 0.60; 0.60; 0.60 type=Object
